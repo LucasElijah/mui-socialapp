@@ -3,7 +3,7 @@ import React from 'react'
 
 const Sidebar = () => {
   return (
-    <Box bgcolor="skyblue" flex={1}>Sidebar</Box>
+    <Box bgcolor="skyblue" flex={1} p={2}>Sidebar</Box>
   )
 }
 
