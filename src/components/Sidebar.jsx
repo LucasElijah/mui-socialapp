@@ -96,6 +96,12 @@ const Sidebar = ({mode, setMode}) => {
 							</ListItemIcon>
 							<Switch onChange={e=>setMode(mode === "light" ? "dark" : "light")}/>
 						</ListItemButton>
+						{/* <ListItemButton component="a" href="#profile">
+							<ListItemIcon>
+								<Brightness6 />
+							</ListItemIcon>
+							<Switch onChange={e=>setMode(mode === "light" ? "dark" : "light")}/>
+						</ListItemButton> */}
 					</ListItem>
 				</List>
 			</Box>
